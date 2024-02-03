@@ -1,0 +1,27 @@
+*{
+  background-image: url('A.jpg');
+            background-size: cover;
+            background-attachment: fixed; /* This prevents the background from scrolling */
+            height: 100%; /* Ensure full viewport height */
+            background-position: center; /* Adjust the position to center bottom */
+            position: relative;  
+}
+.txt{
+  
+  font-weight:bold;
+  color:#000000;
+  letter-spacing:3px;
+  line-height:200%;
+  font-size:20px;
+  margin: 0 5% 0 5%;
+}
+.txt p{
+  font-weight:bold;
+  color:#000000;
+  letter-spacing:3px;
+  line-height:200%;
+  font-size:20px;
+  margin: 0 5% 0 5%;
+  text-decoration:line-through;
+}
+
